@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-import re
+import os
 
 app = Flask(__name__)
 
@@ -78,11 +78,11 @@ def analyze_decision(context, decision):
     
     # Generate next steps
     next_steps = [
-        "1. Research thoroughly - gather all relevant information",
-        "2. Set a decision deadline to avoid analysis paralysis",
-        "3. Consult trusted advisors or people with relevant experience",
-        "4. Consider your long-term goals and values alignment",
-        "5. Trust your intuition after weighing all factors"
+        "Research thoroughly - gather all relevant information",
+        "Set a decision deadline to avoid analysis paralysis",
+        "Consult trusted advisors or people with relevant experience",
+        "Consider your long-term goals and values alignment",
+        "Trust your intuition after weighing all factors"
     ]
     
     return {
@@ -110,4 +110,6 @@ def analyze():
     return jsonify(result)
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    # Use environment variable for debug mode, default to False for production safety
+    debug_mode = os.environ.get('FLASK_DEBUG', 'False').lower() == 'true'
+    app.run(debug=debug_mode, host='0.0.0.0', port=5000)

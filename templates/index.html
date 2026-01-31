@@ -421,7 +421,7 @@
             const ol = nextSteps.querySelector('ol');
             data.next_steps.forEach(step => {
                 const li = document.createElement('li');
-                li.textContent = step.replace(/^\d+\.\s*/, '');
+                li.textContent = step;
                 ol.appendChild(li);
             });
 
