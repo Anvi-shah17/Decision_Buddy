@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decision Buddy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 1H5C3.89 1 3 1.89 3 3V19C3 20.1 3.9 21 5 21H11V19H5V3H13V9H21ZM17 13C15.9 13 15 13.9 15 15C15 16.1 15.9 17 17 17C18.1 17 19 16.1 19 15C19 13.9 18.1 13 17 13ZM17 23L14.25 20.25L15.66 18.84L17 20.18L20.34 16.84L21.75 18.25L17 23Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h1 class="title">Decision Buddy</h1>
+                </div>
+                <div class="welcome-message">
+                    <h2 class="welcome-title">Making tough choices easier, together</h2>
+                    <p class="welcome-description">I'm here to help you think through important decisions with clarity and confidence. No judgment, just thoughtful analysis.</p>
+                </div>
+                
+                <div class="social-proof">
+                    <div class="testimonials-grid">
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <div class="rating-display">
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                </div>
+                                <p>"Helped me think through my career change from every angle. I felt so much more confident in my decision!"</p>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">S</div>
+                                    <span>Sarah M., Marketing Director</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <div class="rating-display">
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                </div>
+                                <p>"The opportunity cost analysis was eye-opening. Made me realize what I'd actually be giving up."</p>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">M</div>
+                                    <span>Mike T., Software Engineer</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <div class="rating-display">
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star filled">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                                <p>"Perfect for big life decisions. Broke down my moving decision into manageable pieces."</p>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">A</div>
+                                    <span>Anna L., Teacher</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="stats-section">
+                        <div class="stat-item">
+                            <div class="stat-number">2,847</div>
+                            <div class="stat-label">Decisions Analyzed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">4.9/5</div>
+                            <div class="stat-label">Average Rating</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">89%</div>
+                            <div class="stat-label">Users Feel More Confident</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="trust-indicators">
+                    <span class="trust-item">
+                        <div class="trust-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 12l2 2 4-4"/>
+                                <path d="M21 12c-1 0-3-1-3-3s2-3 3-3 3 1 3 3-2 3-3 3"/>
+                                <path d="M3 12c1 0 3-1 3-3s-2-3-3-3-3 1-3 3 2 3 3 3"/>
+                                <path d="M13 12h3c2 0 3-1 3-3s-1-3-3-3h-3"/>
+                                <path d="M8 12H5c-2 0-3-1-3-3s1-3 3-3h3"/>
+                            </svg>
+                        </div>
+                        <span>100% Private</span>
+                    </span>
+                    <span class="trust-item">
+                        <div class="trust-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                            </svg>
+                        </div>
+                        <span>Instant Insights</span>
+                    </span>
+                    <span class="trust-item">
+                        <div class="trust-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                <circle cx="12" cy="7" r="4"/>
+                            </svg>
+                        </div>
+                        <span>Just for You</span>
+                    </span>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="features-section">
+                <div class="features-container">
+                    <h3 class="features-title">What makes Decision Buddy special?</h3>
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32">
+                                    <path d="M9 11H15M9 15H15M17 21H7C5.89543 21 5 20.1046 5 19V5C5 3.89543 5.89543 3 7 3H12.5858C12.851 3 13.1054 3.10536 13.2929 3.29289L19.7071 9.70711C19.8946 9.89464 20 10.149 20 10.4142V19C20 20.1046 19.1046 21 18 21H17ZM17 21V10L13 6H7V19H17Z"/>
+                                </svg>
+                            </div>
+                            <h4>Comprehensive Analysis</h4>
+                            <p>Get detailed pros, cons, opportunity costs, and time estimates for any decision</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32">
+                                    <path d="M12 2L2 12H9L11 22L22 12H15L12 2Z"/>
+                                </svg>
+                            </div>
+                            <h4>Instant Insights</h4>
+                            <p>No waiting around - get thoughtful analysis in seconds, not hours</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32">
+                                    <path d="M16 21V19C16 16.7909 14.2091 15 12 15C9.79086 15 8 16.7909 8 19V21M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z"/>
+                                </svg>
+                            </div>
+                            <h4>Personalized Approach</h4>
+                            <p>Every analysis is tailored to your specific situation and context</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32">
+                                    <path d="M20 13C20 16.3137 17.3137 19 14 19L12 21L10 19C6.68629 19 4 16.3137 4 13C4 9.68629 6.68629 7 10 7H14C17.3137 7 20 9.68629 20 13Z"/>
+                                </svg>
+                            </div>
+                            <h4>Judgment-Free Zone</h4>
+                            <p>Share openly without fear of judgment - just honest, helpful analysis</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32">
+                                    <path d="M12 22S2 16 2 9C2 5.5 4.5 3 8 3C10 3 11.5 4 12 5C12.5 4 14 3 16 3C19.5 3 22 5.5 22 9C22 16 12 22 12 22Z"/>
+                                </svg>
+                            </div>
+                            <h4>Built with Empathy</h4>
+                            <p>Designed by people who understand that big decisions can be overwhelming</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32">
+                                    <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"/>
+                                </svg>
+                            </div>
+                            <h4>Proven Results</h4>
+                            <p>89% of users report feeling more confident about their decisions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-section">
+                <div class="input-container">
+                    <div class="step-indicator">
+                        <div class="step active" id="step-1">
+                            <div class="step-number">1</div>
+                            <span>Share your decision</span>
+                        </div>
+                        <div class="step" id="step-2">
+                            <div class="step-number">2</div>
+                            <span>Tell me more about you</span>
+                        </div>
+                        <div class="step" id="step-3">
+                            <div class="step-number">3</div>
+                            <span>Get personalized insights</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Stage 1: Initial Decision Input -->
+                    <div id="stage-1" class="question-stage active">
+                        <label for="decision-input" class="input-label">
+                            What's on your mind? Tell me about the choice you're facing...
+                        </label>
+                        <div class="input-hints">
+                            <div class="hint-examples">
+                                <span class="hint-label">Need inspiration? Try one of these popular decisions:</span>
+                                <div class="example-buttons">
+                                    <button class="example-btn" data-example="Should I quit my current job to start my own business?">
+                                        <span class="example-icon">💼</span>
+                                        Career Change
+                                    </button>
+                                    <button class="example-btn" data-example="Should I move to a different city for better opportunities?">
+                                        <span class="example-icon">🏙️</span>
+                                        Big Move
+                                    </button>
+                                    <button class="example-btn" data-example="Should I go back to school for a master's degree?">
+                                        <span class="example-icon">🎓</span>
+                                        Education
+                                    </button>
+                                    <button class="example-btn" data-example="Should I buy a house or keep renting for another year?">
+                                        <span class="example-icon">🏠</span>
+                                        Housing
+                                    </button>
+                                    <button class="example-btn" data-example="Should I end my relationship and focus on myself?">
+                                        <span class="example-icon">💔</span>
+                                        Relationships
+                                    </button>
+                                    <button class="example-btn" data-example="Should I invest my savings in the stock market or keep it in savings?">
+                                        <span class="example-icon">💰</span>
+                                        Financial
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <textarea 
+                            id="decision-input" 
+                            placeholder="Take your time... I'm here to listen. Share what you're thinking about, any context that might help, and what's making this decision challenging for you. The more details you provide, the more personalized and helpful my analysis will be."
+                            rows="6"
+                            maxlength="800"
+                        ></textarea>
+                        <div class="input-footer">
+                            <div class="character-count">
+                                <span id="char-count">0</span>/800 characters
+                            </div>
+                            <div class="writing-tips">
+                                <span class="tip-text">💡 Pro tip: Include your timeline, budget constraints, and what matters most to you</span>
+                            </div>
+                        </div>
+                        <button id="next-to-stage-2" class="analyze-btn" disabled>
+                            <span class="btn-text">Next: Help Me Understand You Better</span>
+                        </button>
+                    </div>
+
+                    <!-- Stage 2: Decision Classification & Context -->
+                    <div id="stage-2" class="question-stage">
+                        <h3 class="stage-title">🧭 Let me understand your situation better</h3>
+                        <p class="stage-subtitle">A few quick questions to personalize my analysis for you</p>
+                        
+                        <div class="question-group">
+                            <label class="question-label">What kind of decision is this?</label>
+                            <div class="button-grid" id="decision-type-buttons">
+                                <button class="option-btn" data-value="career">💼 Career / Jobs</button>
+                                <button class="option-btn" data-value="study">📚 Study / Education</button>
+                                <button class="option-btn" data-value="money">💰 Money / Finance</button>
+                                <button class="option-btn" data-value="health">❤️ Health / Wellbeing</button>
+                                <button class="option-btn" data-value="relationships">👥 Relationships</button>
+                                <button class="option-btn" data-value="time">⏰ Time Management</button>
+                                <button class="option-btn" data-value="other">🤔 Other</button>
+                            </div>
+                        </div>
+
+                        <div class="question-group">
+                            <label class="question-label">What matters most to you in this decision? (Pick 1-2)</label>
+                            <div class="button-grid multi-select" id="priorities-buttons">
+                                <button class="option-btn multi" data-value="growth">🌱 Learning / Growth</button>
+                                <button class="option-btn multi" data-value="money">💵 Money</button>
+                                <button class="option-btn multi" data-value="freetime">🎯 Free Time</button>
+                                <button class="option-btn multi" data-value="mental">🧠 Mental Health</button>
+                                <button class="option-btn multi" data-value="longterm">📈 Long-term Outcomes</button>
+                                <button class="option-btn multi" data-value="shortterm">⚡ Short-term Relief</button>
+                            </div>
+                        </div>
+
+                        <div class="question-group">
+                            <label class="question-label">How much time can you realistically commit?</label>
+                            <div class="button-grid" id="time-commitment-buttons">
+                                <button class="option-btn" data-value="limited">🕐 Very limited (0-5 hrs/week)</button>
+                                <button class="option-btn" data-value="moderate">🕕 Moderate (5-10 hrs/week)</button>
+                                <button class="option-btn" data-value="plenty">🕙 Plenty (10+ hrs/week)</button>
+                            </div>
+                        </div>
+
+                        <div class="question-group">
+                            <label class="question-label">How stressed are you right now?</label>
+                            <div class="button-grid" id="stress-level-buttons">
+                                <button class="option-btn" data-value="low">😌 Low stress</button>
+                                <button class="option-btn" data-value="medium">😐 Medium stress</button>
+                                <button class="option-btn" data-value="high">😰 High stress</button>
+                            </div>
+                        </div>
+
+                        <div class="question-group" id="budget-question" style="display: none;">
+                            <label class="question-label">Do you have a tight budget constraint?</label>
+                            <div class="button-grid" id="budget-buttons">
+                                <button class="option-btn" data-value="yes">💸 Yes, very tight</button>
+                                <button class="option-btn" data-value="somewhat">💰 Somewhat tight</button>
+                                <button class="option-btn" data-value="no">💵 No constraints</button>
+                            </div>
+                        </div>
+
+                        <button id="next-to-stage-3" class="analyze-btn" disabled>
+                            <span class="btn-text">Next: Final Questions</span>
+                        </button>
+                    </div>
+
+                    <!-- Stage 3: Decision-Specific Questions -->
+                    <div id="stage-3" class="question-stage">
+                        <h3 class="stage-title">🎯 Just a couple more specific questions</h3>
+                        <p class="stage-subtitle">These will help me give you the most accurate analysis</p>
+                        
+                        <div id="specific-questions">
+                            <!-- Questions will be dynamically inserted here based on decision type -->
+                        </div>
+
+                        <button id="analyze-btn" class="analyze-btn" disabled>
+                            <span class="btn-text">Let's Think This Through Together</span>
+                            <div class="loading-spinner" style="display: none;"></div>
+                        </button>
+                    </div>
+
+                    <p class="privacy-note">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                            <path d="M9 12l2 2 4-4"/>
+                            <path d="M21 12c-1 0-3-1-3-3s2-3 3-3 3 1 3 3-2 3-3 3"/>
+                        </svg>
+                        Your thoughts stay private. I don't store personal details.
+                    </p>
+                </div>
+            </div>
+
+            <div id="results-section" class="results-section" style="display: none;">
+                <div class="step-indicator">
+                    <div class="step completed">
+                        <div class="step-number">1</div>
+                        <span>Share your decision</span>
+                    </div>
+                    <div class="step active">
+                        <div class="step-number">2</div>
+                        <span>Review insights</span>
+                    </div>
+                </div>
+                
+                <div class="analysis-intro">
+                    <h3>Here's what I think about your situation...</h3>
+                    <p>I've considered different angles to help you see the bigger picture. Take your time reviewing each section.</p>
+                </div>
+                
+                <div class="results-grid">
+                    <div class="pros-section">
+                        <div class="section-header pros-header">
+                            <h3>What's Looking Good</h3>
+                            <p class="section-subtitle">The potential benefits I see</p>
+                        </div>
+                        <ul id="pros-list" class="decision-list"></ul>
+                    </div>
+
+                    <div class="cons-section">
+                        <div class="section-header cons-header">
+                            <h3>Things to Consider</h3>
+                            <p class="section-subtitle">Potential challenges ahead</p>
+                        </div>
+                        <ul id="cons-list" class="decision-list"></ul>
+                    </div>
+                </div>
+
+                <div class="additional-info">
+                    <div class="info-card opportunity-cost">
+                        <div class="info-header">
+                            <h4>What You Might Give Up</h4>
+                            <p class="info-subtitle">The opportunity cost to think about</p>
+                        </div>
+                        <p id="opportunity-cost-text"></p>
+                    </div>
+
+                    <div class="info-card time-estimate">
+                        <div class="info-header">
+                            <h4>Time & Effort Involved</h4>
+                            <p class="info-subtitle">What to expect timeline-wise</p>
+                        </div>
+                        <p id="time-estimate-text"></p>
+                    </div>
+                </div>
+
+                <div class="reflection-prompt">
+                    <div class="reflection-card">
+                        <h4>Take a Moment to Reflect</h4>
+                        <p>How do these insights sit with you? Sometimes the "right" decision becomes clearer when we see it laid out like this. Trust your instincts—you know yourself best.</p>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button id="new-analysis-btn" class="secondary-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                            <circle cx="12" cy="12" r="3"/>
+                        </svg>
+                        Explore Another Decision
+                    </button>
+                    <button id="export-btn" class="primary-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                            <polyline points="7,10 12,15 17,10"/>
+                            <line x1="12" y1="15" x2="12" y2="3"/>
+                        </svg>
+                        Save This Analysis
+                    </button>
+                </div>
+
+                <div class="feedback-section">
+                    <div class="feedback-card">
+                        <h4>How did I do?</h4>
+                        <p>Your feedback helps me get better at understanding what matters most in these kinds of decisions.</p>
+                        <div class="rating-container">
+                            <div class="stars-rating">
+                                <span class="star feedback-star" data-rating="1">★</span>
+                                <span class="star feedback-star" data-rating="2">★</span>
+                                <span class="star feedback-star" data-rating="3">★</span>
+                                <span class="star feedback-star" data-rating="4">★</span>
+                                <span class="star feedback-star" data-rating="5">★</span>
+                            </div>
+                            <div class="rating-labels">
+                                <span class="rating-label">Not helpful</span>
+                                <span class="rating-label">Somewhat helpful</span>
+                                <span class="rating-label">Very helpful</span>
+                            </div>
+                        </div>
+                        <textarea id="feedback-text" placeholder="Anything specific you'd like me to know? What was most helpful or what could I do better?" rows="3"></textarea>
+                        <button id="submit-feedback-btn" class="feedback-btn" disabled>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                            </svg>
+                            Share Feedback
+                        </button>
+                        <div id="feedback-status" class="feedback-status"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="error-section" class="error-section" style="display: none;">
+                <div class="error-card">
+                    <div class="error-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="48" height="48">
+                            <circle cx="12" cy="12" r="10"/>
+                            <line x1="12" y1="8" x2="12" y2="12"/>
+                            <line x1="12" y1="16" x2="12.01" y2="16"/>
+                        </svg>
+                    </div>
+                    <h3>Oops, something didn't work quite right</h3>
+                    <p id="error-message">Don't worry—this happens sometimes. Let's try that again.</p>
+                    <button id="retry-btn" class="primary-btn">Give It Another Shot</button>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-sections">
+                    <div class="footer-section">
+                        <h4>How It Works</h4>
+                        <ul>
+                            <li>Share your decision challenge</li>
+                            <li>Get comprehensive analysis</li>
+                            <li>Review pros, cons & insights</li>
+                            <li>Make confident choices</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Popular Decisions</h4>
+                        <ul>
+                            <li>Career transitions</li>
+                            <li>Moving & relocation</li>
+                            <li>Educational choices</li>
+                            <li>Financial investments</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Why Choose Us</h4>
+                        <ul>
+                            <li>100% Private & secure</li>
+                            <li>Instant analysis</li>
+                            <li>Personalized insights</li>
+                            <li>No judgment zone</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Get Support</h4>
+                        <ul>
+                            <li>Analysis examples</li>
+                            <li>Decision-making tips</li>
+                            <li>Common challenges</li>
+                            <li>Success stories</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <p class="footer-main">Made with care to help you make better decisions</p>
+                    <div class="footer-links">
+                        <span>Decision Buddy &copy; 2026</span>
+                        <span>&middot;</span>
+                        <span>Built for ICHACK2026</span>
+                        <span>&middot;</span>
+                        <span>Privacy First</span>
+                    </div>
+                    <div class="footer-stats">
+                        <span>🎯 2,847+ decisions analyzed</span>
+                        <span>⭐ 4.9/5 satisfaction</span>
+                        <span>🚀 Join thousands making better choices</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

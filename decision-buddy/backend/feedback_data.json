@@ -1,0 +1,369 @@
+{
+  "responses": [
+    {
+      "timestamp": "2026-01-31T14:53:50.472558",
+      "decision": "Should I quit my job?",
+      "analysis": {
+        "pros": [
+          "Better financial stability",
+          "Professional growth opportunities",
+          "Enhanced resume and experience",
+          "Increased earning potential"
+        ],
+        "cons": [
+          "Risk of financial instability and income loss",
+          "Potential career disruption and setbacks",
+          "Uncertainty in job market and economy",
+          "Loss of benefits and professional security"
+        ],
+        "opportunity_cost": "By making this career decision, you would be giving up your current job security and steady income stream. This means forgoing the predictable benefits, potential promotions, and professional relationships you've built. You'd also miss out on the safety net of a regular paycheck while pursuing this new path.",
+        "time": "1-6 months"
+      },
+      "rating": 4,
+      "feedback_text": "I would like it to be more specific to my needs."
+    },
+    {
+      "timestamp": "2026-01-31T15:01:26.480598",
+      "decision": "Should i go to a party this thursday but I really really want to go as all my friends are going. Or should I and study for my exams which start on monday.",
+      "analysis": {
+        "pros": [
+          "Could be an amazing night and create lifelong memories",
+          "Opportunity to socialize and make new friends",
+          "Mental break from exam stress and pressure",
+          "May boost mood and confidence before exams"
+        ],
+        "cons": [
+          "Could negatively impact exam performance and grades",
+          "This exam opportunity won't come again - parties happen regularly",
+          "May lead to regret if you underperform on important exams",
+          "Compromising your academic future for temporary entertainment"
+        ],
+        "opportunity_cost": "By choosing to attend the party, you're giving up crucial study time for your upcoming exams. This is particularly significant because exams are one-time opportunities that directly impact your grades, academic standing, and future prospects. While parties happen frequently throughout life, each exam represents a unique chance to demonstrate your knowledge and advance your education. The hours spent at the party could be used for final review, practice problems, or getting adequate rest before your exams.",
+        "time": "Decision needed immediately - exam impact within days"
+      },
+      "rating": 4,
+      "feedback_text": "yes good work, it is specific."
+    },
+    {
+      "timestamp": "2026-01-31T15:08:32.148644",
+      "decision": "Should I go to a party on thursday? with my friends as everyone is going or should i sit and study.",
+      "analysis": {
+        "pros": [
+          "Could be an amazing night and create lifelong memories",
+          "Opportunity to socialize and make new friends",
+          "Mental break from exam stress and pressure",
+          "May boost mood and confidence before exams"
+        ],
+        "cons": [
+          "Could negatively impact exam performance and grades",
+          "This exam opportunity won't come again - parties happen regularly",
+          "May lead to regret if you underperform on important exams",
+          "Compromising your academic future for temporary entertainment"
+        ],
+        "opportunity_cost": "By choosing to attend the party, you're giving up crucial study time for your upcoming exams. This is particularly significant because exams are one-time opportunities that directly impact your grades, academic standing, and future prospects. While parties happen frequently throughout life, each exam represents a unique chance to demonstrate your knowledge and advance your education. The hours spent at the party could be used for final review, practice problems, or getting adequate rest before your exams.",
+        "time": "One evening (4-6 hours)"
+      },
+      "rating": 2,
+      "feedback_text": "Not good as I haven't mentioned the timeline of my exams. So how would you know? But you are assuming that \"by choosing to attend you party you are not giving crucial time for your UPCOMING exams\" which makes no sense."
+    },
+    {
+      "timestamp": "2026-01-31T16:30:18.034836",
+      "decision": "Should I start my own business or should I continue working on my own",
+      "analysis": {
+        "pros": [
+          "Better financial stability",
+          "Professional growth opportunities",
+          "Enhanced resume and experience",
+          "Increased earning potential"
+        ],
+        "cons": [
+          "Risk of financial instability and income loss",
+          "Potential career disruption and setbacks",
+          "Uncertainty in job market and economy",
+          "Loss of benefits and professional security"
+        ],
+        "opportunity_cost": "Making this decision requires giving up other potential opportunities and alternatives that are currently available to you. This includes the time, energy, and resources that could be directed toward different goals, as well as the flexibility to pursue other options that might arise in the future.",
+        "time": "1-3 months"
+      },
+      "rating": 4,
+      "feedback_text": ""
+    },
+    {
+      "timestamp": "2026-01-31T19:07:42.332978",
+      "decision": "test",
+      "analysis": {
+        "pros": [
+          "test"
+        ],
+        "cons": [
+          "test"
+        ],
+        "opportunity_cost": "test",
+        "time": "test"
+      },
+      "rating": 5,
+      "feedback_text": "test feedback"
+    },
+    {
+      "timestamp": "2026-01-31T19:16:37.487447",
+      "decision": "Should I test this?",
+      "analysis": {
+        "pros": [
+          "Test pro"
+        ],
+        "cons": [
+          "Test con"
+        ],
+        "opportunity_cost": "Test cost",
+        "time": "Test time"
+      },
+      "rating": 4,
+      "feedback_text": "Test feedback"
+    },
+    {
+      "timestamp": "2026-01-31T19:23:58.753767",
+      "decision": "Test decision",
+      "analysis": "Test analysis",
+      "rating": 5,
+      "feedback_text": "Test feedback"
+    },
+    {
+      "timestamp": "2026-01-31T19:34:03.340048",
+      "decision": "Should I test this?",
+      "analysis": {
+        "pros": [
+          "It works"
+        ],
+        "cons": [
+          "It might not work"
+        ],
+        "opportunity_cost": "Time spent testing",
+        "time": "5 minutes"
+      },
+      "rating": 5,
+      "feedback_text": "Great test!"
+    },
+    {
+      "timestamp": "2026-01-31T19:34:12.326196",
+      "decision": "Should I test this?",
+      "analysis": {
+        "pros": [
+          "It works"
+        ]
+      },
+      "rating": 5,
+      "feedback_text": ""
+    },
+    {
+      "timestamp": "2026-01-31T20:03:56.424381",
+      "decision": "Should I test this system?",
+      "analysis": {
+        "pros": [
+          "Test pro"
+        ],
+        "cons": [
+          "Test con"
+        ],
+        "opportunity_cost": "Test cost",
+        "time": "Test time"
+      },
+      "rating": 5,
+      "feedback_text": "Final test!"
+    },
+    {
+      "timestamp": "2026-01-31T21:24:45.613003",
+      "decision": "Test decision",
+      "analysis": {
+        "pros": [
+          "Test pro"
+        ],
+        "cons": [
+          "Test con"
+        ],
+        "opportunity_cost": "Test cost",
+        "time": "Test time"
+      },
+      "rating": 4,
+      "feedback_text": "Test feedback"
+    },
+    {
+      "timestamp": "2026-01-31T21:25:15.081728",
+      "decision": "Test decision",
+      "analysis": {
+        "pros": [
+          "Test pro"
+        ],
+        "cons": [
+          "Test con"
+        ],
+        "opportunity_cost": "Test cost",
+        "time": "Test time"
+      },
+      "rating": 4,
+      "feedback_text": "Test feedback"
+    },
+    {
+      "timestamp": "2026-01-31T22:15:23.465972",
+      "decision": "Test decision",
+      "analysis": {
+        "pros": [
+          "Pro 1"
+        ],
+        "cons": [
+          "Con 1"
+        ],
+        "opportunity_cost": "Test cost",
+        "time": "Test time"
+      },
+      "rating": 4,
+      "feedback_text": "Test feedback"
+    },
+    {
+      "timestamp": "2026-01-31T22:15:43.861226",
+      "decision": "Test decision",
+      "analysis": {
+        "pros": [
+          "Pro 1"
+        ],
+        "cons": [
+          "Con 1"
+        ],
+        "opportunity_cost": "Test cost",
+        "time": "Test time"
+      },
+      "rating": 4,
+      "feedback_text": "Test feedback"
+    },
+    {
+      "timestamp": "2026-01-31T22:20:03.531044",
+      "decision": "Should I take a job at a startup?",
+      "analysis": "Based on your goals and risk tolerance, taking the startup job appears favorable. The pros include rapid skill development, equity potential, and dynamic work environment. The main cons are job security concerns and potential work-life balance issues.",
+      "rating": 4,
+      "feedback_text": "The analysis was helpful and covered the key points I was considering"
+    },
+    {
+      "timestamp": "2026-01-31T22:20:45.986840",
+      "decision": "Test decision for feedback submission",
+      "analysis": {
+        "pros": [
+          "Test pro 1",
+          "Test pro 2"
+        ],
+        "cons": [
+          "Test con 1"
+        ],
+        "opportunity_cost": "Test opportunity cost",
+        "time": "Test time"
+      },
+      "rating": 4,
+      "feedback_text": "Test feedback from command line"
+    },
+    {
+      "timestamp": "2026-01-31T22:27:50.305328",
+      "decision": "Should I test this feedback system?",
+      "analysis": {
+        "pros": [
+          "Quick test",
+          "Clear results"
+        ],
+        "cons": [
+          "Takes time"
+        ],
+        "opportunity_cost": "Time spent debugging",
+        "time": "5 minutes"
+      },
+      "rating": 5,
+      "feedback_text": "Testing from curl after fix"
+    },
+    {
+      "timestamp": "2026-01-31T22:29:29.272892",
+      "decision": "Should I move to a different city for better opportunities?",
+      "analysis": {
+        "pros": [
+          "Learning experience regardless of outcome",
+          "This won't impact essentials AND directly serves your money priority - smart financial move",
+          "New opportunities for growth",
+          "Potential for positive outcomes",
+          "Chance to improve current situation"
+        ],
+        "cons": [
+          "Potential negative consequences",
+          "Risk of regret or disappointment",
+          "Uncertainty about the outcome",
+          "Opportunity cost of other options"
+        ],
+        "opportunity_cost": "By choosing this path, you're giving up 5-10 hours per week that could be spent on other important goals and learning opportunities that could advance your personal development.",
+        "time": "With 5-10 hours per week to dedicate, and considering that recurring costs require ongoing monthly budget management, growth mindset typically leads to more productive time use"
+      },
+      "rating": 4,
+      "feedback_text": ""
+    },
+    {
+      "timestamp": "2026-01-31T22:30:30.317380",
+      "decision": "Should I invest my savings in the stock market or keep it in savings?",
+      "analysis": {
+        "pros": [
+          "Potential financial returns",
+          "Financial security and independence",
+          "Asset building opportunity",
+          "Future value appreciation"
+        ],
+        "cons": [
+          "Significant financial investment required",
+          "Risk of financial loss or poor returns",
+          "Opportunity cost of alternative investments",
+          "Potential to strain your budget or savings",
+          "Time spent studying doesn't immediately address your money priority"
+        ],
+        "opportunity_cost": "By choosing this path, you're giving up 5-10 hours per week that could be spent on other important goals and time that could be spent on income-generating activities. Since money is a priority for you, weigh whether this time investment will eventually lead to financial benefits.",
+        "time": "With 5-10 hours per week to dedicate, break time allows for more focused, efficient learning"
+      },
+      "rating": 3,
+      "feedback_text": ""
+    },
+    {
+      "timestamp": "2026-01-31T22:33:52.893192",
+      "decision": "Should I GO for a party this weekend or should I SIT and study. I have exams starting this Monday. But my friends are going and I really want to go.",
+      "analysis": {
+        "pros": [
+          "Mental break from exam stress and pressure",
+          "Could be an amazing night and create lifelong memories",
+          "Opportunity to socialize and make new friends",
+          "May boost mood and confidence before exams"
+        ],
+        "cons": [
+          "Could negatively impact exam performance and grades",
+          "This exam opportunity won't come again - parties happen regularly",
+          "May lead to regret if you underperform on important exams",
+          "Compromising your academic future for temporary entertainment",
+          "Delaying work with limited time availability could create professional problems",
+          "Limited time means you might half-commit, reducing benefits and increasing regret"
+        ],
+        "opportunity_cost": "By choosing this path, you're giving up your already scarce free time and learning opportunities that could advance your personal development. With limited time but growth as a priority, ensure this decision offers meaningful learning opportunities.",
+        "time": "With only 0-5 hours per week available, growth mindset typically leads to more productive time use. However, approaching deadline creates time pressure that could force quick decisions Focus on the most essential aspects to maximize your limited time investment."
+      },
+      "rating": 2,
+      "feedback_text": "Very generic. Not good and not specific at all."
+    }
+  ],
+  "patterns": {
+    "career": {
+      "total_ratings": 12,
+      "total_count": 3,
+      "avg_rating": 4.0,
+      "needs_improvement": false
+    },
+    "party_exam": {
+      "total_ratings": 62,
+      "total_count": 15,
+      "avg_rating": 4.133333333333334,
+      "needs_improvement": false
+    },
+    "financial": {
+      "total_ratings": 3,
+      "total_count": 1,
+      "avg_rating": 3.0,
+      "needs_improvement": false
+    }
+  }
+}
