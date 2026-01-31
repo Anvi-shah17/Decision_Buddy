@@ -1012,5 +1012,7 @@ def get_feedback_stats():
 def health_check():
     return jsonify({'status': 'healthy', 'message': 'Decision Buddy API is running'})
 
-if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5003)
+if __name__ == "__main__":
+    import os
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
