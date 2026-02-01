@@ -1,7 +1,7 @@
 // API Configuration - automatically detects environment
 const API_BASE_URL = window.location.hostname === 'localhost' 
     ? 'http://localhost:5003' 
-    : 'https://decision-buddy-backend.onrender.com';
+    : 'https://decision-buddy-1.onrender.com';
 
 // DOM Elements
 const decisionInput = document.getElementById('decision-input');
