@@ -2,13 +2,11 @@ services:
   # Backend Web Service
   - type: web
     name: decision-buddy-backend
-    runtime: python3
+    env: python3
     buildCommand: "cd decision-buddy/backend && pip install -r requirements.txt"
     startCommand: "cd decision-buddy/backend && python app.py"
     plan: free
     envVars:
       - key: CLAUDE_API_KEY
         sync: false  # You'll set this manually in Render dashboard
-      - key: PORT
-        value: "10000"  # Render assigns this automatically
     healthCheckPath: /health
