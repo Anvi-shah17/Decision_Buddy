@@ -2,7 +2,7 @@ services:
   # Backend Web Service
   - type: web
     name: decision-buddy-backend
-    runtime: python3
+    env: python3
     buildCommand: "cd decision-buddy/backend && pip install -r requirements.txt"
     startCommand: "cd decision-buddy/backend && python app.py"
     plan: free
@@ -12,13 +12,3 @@ services:
       - key: PORT
         value: "10000"  # Render assigns this automatically
     healthCheckPath: /health
-    
-  # Frontend Static Site
-  - type: static
-    name: decision-buddy-frontend
-    staticPublishPath: ./decision-buddy/frontend
-    buildCommand: "echo 'No build needed for static site'"
-    routes:
-      - type: rewrite
-        source: /*
-        destination: /index.html
