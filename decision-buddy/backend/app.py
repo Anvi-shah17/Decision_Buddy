@@ -7,6 +7,11 @@ import os
 from datetime import datetime
 import uuid
 
+import os
+import anthropic
+
+api_key = os.getenv("CLAUDE_API_KEY")
+client = anthropic.Client(api_key=api_key) 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
@@ -1014,5 +1019,5 @@ def health_check():
 
 if __name__ == "__main__":
     import os
-    port = int(os.environ.get("PORT", 5000))
+    port = int(os.environ.get("PORT", 5003))
     app.run(host="0.0.0.0", port=port)

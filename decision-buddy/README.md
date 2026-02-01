@@ -1,53 +1,60 @@
-<<<<<<< HEAD
-# Decision_Buddy
-🌟 Key Features of the README:
-Professional Presentation
-Eye-catching title with emojis
-Status badges for technology stack
-Clear feature breakdown with icons
-Professional structure and formatting
-Complete Documentation
-Quick Start Guide: Step-by-step installation instructions
-Project Structure: Clear file organization overview
-API Documentation: Complete endpoint specifications
-Development Guide: Frontend/backend development info
-Testing Functions: Built-in debugging tools documentation
-User-Focused Content
-Multi-stage analysis explanation: Shows the sophisticated workflow
-Decision type categories: Explains the specialized analysis types
-Privacy & data section: Reassures users about data handling
-Troubleshooting guide: Common issues and solutions
-GitHub-Ready Features
-Contributing guidelines: Clear process for contributors
-License section: Professional licensing info
-Support section: How to get help
-Browser compatibility: Technical requirements
-ICHACK2026 attribution: Shows it was built for the hackathon
-Technical Excellence
-Code examples: API request/response formats
-Testing documentation: How to use built-in debugging tools
-Development setup: Complete environment setup instructions
-Troubleshooting: Specific solutions for common problems
-The README now presents your Decision Buddy as a sophisticated, well-engineered application with:
+# Decision Buddy - Local Setup 🎯
 
-✅ Multi-stage intelligent analysis
-✅ Context-aware decision support
-✅ Modern, accessible UI
-✅ Comprehensive feedback system
-✅ Professional development practices
-✅ Thorough documentation
-This README will make your project stand out on GitHub and clearly communicate its value and technical sophistication to potential users, contributors, and reviewers! 🚀
-=======
-# Decision Buddy 🤔💭
+Decision Buddy is a web application that helps you analyze tough decisions by providing pros, cons, opportunity costs, and time estimates.
 
-An intelligent decision analysis web application that helps you make better choices by providing structured analysis, pros/cons evaluation, and personalized insights.
+## Quick Start
 
-![Decision Buddy Interface](https://img.shields.io/badge/Status-Active-brightgreen)
-![Python](https://img.shields.io/badge/Python-3.9+-blue)
-![Flask](https://img.shields.io/badge/Flask-2.0+-orange)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)
+### Option 1: Automated Setup (Recommended)
+```bash
+# Navigate to the project directory
+cd /Users/anvi/Desktop/ICHACK26/ICHACK2026/decision-buddy
 
-## 🌟 Features
+# Run the automated setup script
+./start_local.sh
+```
+
+### Option 2: Manual Setup
+
+#### Prerequisites
+- Python 3.7 or higher
+- pip (Python package installer)
+
+#### Setup Steps
+
+1. **Navigate to the project directory:**
+   ```bash
+   cd /Users/anvi/Desktop/ICHACK26/ICHACK2026/decision-buddy
+   ```
+
+2. **Create and activate a virtual environment:**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install backend dependencies:**
+   ```bash
+   cd backend
+   pip install -r requirements.txt
+   ```
+
+4. **Start the backend server:**
+   ```bash
+   python app.py
+   ```
+   The backend will run on http://localhost:5003
+
+5. **In a new terminal, start the frontend server:**
+   ```bash
+   cd ../frontend
+   python3 -m http.server 8000
+   ```
+   The frontend will run on http://localhost:8000
+
+6. **Open your web browser and go to:**
+   ```
+   http://localhost:8000
+   ```
 
 ### 🧠 Multi-Stage Analysis
 - **Stage 1**: Enter your decision scenario
