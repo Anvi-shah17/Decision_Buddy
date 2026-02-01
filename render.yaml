@@ -3,8 +3,9 @@ services:
   - type: web
     name: decision-buddy-backend
     env: python3
-    buildCommand: "cd decision-buddy/backend && pip install -r requirements.txt"
-    startCommand: "cd decision-buddy/backend && python app.py"
+    rootDir: decision-buddy/backend
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python app.py"
     plan: free
     envVars:
       - key: CLAUDE_API_KEY

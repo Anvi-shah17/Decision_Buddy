@@ -10,8 +10,18 @@ import uuid
 import os
 import anthropic
 
+# Initialize Anthropic client safely
 api_key = os.getenv("CLAUDE_API_KEY")
-client = anthropic.Client(api_key=api_key) 
+client = None
+if api_key:
+    try:
+        client = anthropic.Anthropic(api_key=api_key)
+    except Exception as e:
+        print(f"Warning: Could not initialize Anthropic client: {e}")
+        client = None
+else:
+    print("Warning: CLAUDE_API_KEY not set. AI features will be disabled.")
+
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
